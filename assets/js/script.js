@@ -5,30 +5,7 @@ const nav = document.querySelector(".responsive-navbar");
 toggle.addEventListener("click", () => {
   nav.classList.toggle('active-nav')
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// course show dymic
 const courses = [
   {
     title: "Rust + Solana for Beginners",
