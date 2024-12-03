@@ -1,0 +1,47 @@
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.shrink-0{
+  flex-shrink: 0;
+}
+.gap-md {
+  gap: 1rem;
+}
+
+.d-block{
+  display: inline-block;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.border-1{
+  border: 1px solid #fff;
+  height: 90px;
+  /* background-color: red; */
+}
+
+.p-2{
+  padding: 20px;
+}

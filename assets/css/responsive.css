@@ -1,0 +1,194 @@
+/* responsive navbar */
+.responsive-navbar {
+    width: 50%;
+    background-color: #333232;
+    overflow: auto;
+    position: absolute;
+    right: -300%;
+    top: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    transition: all 0.5s;
+
+
+}
+
+
+
+.responsive-navbar a {
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+/* Tablet and smaller desktop screens */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    /* Header/Navigation */
+    .nav-links {
+        gap: 20px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .heading-text {
+        width: 100%;
+    }
+
+    /* Career Booster Section */
+    .career-booster-section {
+        padding: 40px 20px;
+    }
+
+    /* Logo Container */
+    .logo-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* Job Offer Section */
+    .job-offer-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Review Section */
+    .review-card {
+        width: calc(50% - 20px);
+    }
+
+    /* Rotate Section */
+    .rotate {
+        overflow-x: auto;
+        padding: 20px;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .nav-links a {
+        display: none;
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    .active-nav {
+        transition: all 0.5s;
+        right: -1%;
+
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+
+
+    /* Text sections */
+    h1 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    /* Benefits Section */
+    .benefits {
+        flex-direction: column;
+    }
+
+    .benefit {
+        width: 100%;
+    }
+
+    /* Review Cards */
+    .review-card {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .social-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* Contact Form */
+    .contact-right form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+
+    /* Further adjustments for very small screens */
+    .logo img {
+        max-width: 120px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+
+    /* Partners marquee */
+    .partners-marquee p {
+        font-size: 14px;
+    }
+
+    /* Logo container */
+    .logo-container .logo {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
