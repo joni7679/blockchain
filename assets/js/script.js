@@ -87,20 +87,17 @@ courses.forEach(course => {
                     </div>
                     <div class="badge">${course.badge}</div>
                     <div class="image-section">
-                        <img src="${course.image}" alt="Character" class="character">
-
+                        <img src="${course.image}" alt="${course.image}" class="character">
                     </div>
                     <div class="details flex align-center justify-between">
                         <div>
                            <p>${course.lectures}</p>
                            <p>${course.price}</p>
                         </div>
-
                         <div class="arrow">
                           <img src="${course.arrowIcon}" alt="">
                         </div>
                     </div>
-
                 </div>
             </div>`
   container.innerHTML = clutter;

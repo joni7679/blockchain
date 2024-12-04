@@ -128,7 +128,7 @@ header {
     color: var(--white-color);
     font-family: drukwide;
     padding: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .text-line-span {
@@ -141,8 +141,8 @@ header {
 
 .block-chin-span {
     display: inline-block;
-    width: 400px;
-    height: 82px;
+    width: 359px;
+    height: 75px;
     background: url('../images/blockchain.png');
     background-size: cover;
     background-position: center;
@@ -151,9 +151,9 @@ header {
 .heading-text {
     margin-top: 150px;
     text-transform: uppercase;
-    width: 70%;
+    width: 70% !important;
     position: relative;
-    /* background-color: goldenrod; */
+    background-color: goldenrod;
 
 }
 .heading-text h1{
@@ -230,11 +230,17 @@ header {
 
 /* ========course section code start here========= */
 
+.course-section {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
 .card {
-    width: 315px;
+    width: 300px;
+    height: 400px;
     background-color: #000;
     color: #fff;
-    /* border-radius: 8px; */
     overflow: hidden;
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -242,6 +248,8 @@ header {
     cursor: pointer;
     font-family: drukwide;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-content {
