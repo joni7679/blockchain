@@ -243,6 +243,13 @@
     }
 }
 
+@media (max-width:650px) {
+    .emoji-container{
+        flex-direction: column;
+    }
+    
+}
+
 @media (max-width: 576px) {
     .hero-section {
         padding: 30px 10px;

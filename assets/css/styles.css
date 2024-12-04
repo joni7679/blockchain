@@ -532,65 +532,30 @@ header {
 
 /* =====* Benefits Section *====== */
 
-.icon-section {
-    margin: 40px 0;
-}
 
-.icon-section img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    background-color: #f5a623;
-    /* Orange color around icon */
+.section-header h3{
     padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
 }
-
-
-.benefits {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 50px;
-    margin-top: 50px;
+.emoji-container .emoji{
+    width: 250px;
 }
-
-.benefit {
+.roadtitle{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 10px;
+}
+.roadtitle p{
+    font-size: 2vw;
+    font-weight: bolder;
 }
 
-.number {
-    width: 40px;
-    height: 40px;
-    background-color: #f5a623;
-    /* Orange background */
-    color: #000;
-    /* Black text */
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+.roadtext{
+   margin-left: 80px;
 }
-
-.text {
-    text-align: left;
-}
-
-.text h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0 0 10px;
-}
-
-.text p {
-    font-size: 1rem;
-    margin: 0;
-}
-
-
 
 
 /* =======review silder css code start here==== */

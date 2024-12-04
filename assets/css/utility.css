@@ -16,7 +16,9 @@
 .justify-around {
   justify-content: space-around;
 }
-
+.flex-col{
+  flex-direction: column;
+}
 .align-center {
   align-items: center;
 }
